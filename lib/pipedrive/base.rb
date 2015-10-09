@@ -16,7 +16,7 @@ module Pipedrive
 
     include HTTParty
     
-    base_uri 'api.pipedrive.com/v1'
+    base_uri 'api.pipedrive.com:443/v1'
     headers HEADERS
     format :json
 
